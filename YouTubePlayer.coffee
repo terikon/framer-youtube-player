@@ -7,6 +7,7 @@ youTubeReady = new Promise (resolve, reject) ->
 # standard youtube iframe api initialization
 tag = document.createElement 'script'
 tag.src = 'https://www.youtube.com/iframe_api'
+# TODO: script async defer?
 firstScriptTag = document.getElementsByTagName('script')[0]
 firstScriptTag.parentNode.insertBefore tag, firstScriptTag
 
