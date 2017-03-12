@@ -10,7 +10,7 @@ tag.src = 'https://www.youtube.com/iframe_api'
 firstScriptTag = document.getElementsByTagName('script')[0]
 firstScriptTag.parentNode.insertBefore tag, firstScriptTag
 
-class exports.YouTubePlayer extends Layer
+class YouTubePlayer extends Layer
 
     # events, see https://developers.google.com/youtube/iframe_api_reference#Events
     @Events:
@@ -72,3 +72,5 @@ class exports.YouTubePlayer extends Layer
     @define "playerVars",
         get: -> @_playerVars
         set: (value) -> @_playerVars = value
+
+module?.exports = YouTubePlayer
