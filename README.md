@@ -12,20 +12,14 @@ TODO: example
 
 ## Installation
 
-```
-$ cd /your/project.framer
-$ npm install framer-youtube-player --save
-```
-
-modules/npm.coffee:
-```
-exports.YouTubePlayer = require "framer-youtube-player"
-```
+- Create a new Framer project
+- Download YouTubePlayer.coffee and put it in the modules folder of the project
+- At the top of your code, write `{YouTubePlayer} = require 'YouTubePlayer'`
 
 ## How to use
 
 ```coffeescript
-{YouTubePlayer} = require 'npm'
+{YouTubePlayer} = require 'YouTubePlayer'
 
 youtube = new YouTubePlayer
     video: "9bZkp7q19f0"
