@@ -3,7 +3,8 @@
 [Framer](https://framer.com) module for displaying YouTube videos.
 It wraps [standard YouTube iFrame player](https://developers.google.com/youtube/iframe_api_reference), so the player itself can be manipulated in many interesting ways.
 
-TODO: image
+
+![screenshot](https://terikon.github.io/framer-youtube-player/images/framer-screenshot-1.jpg)
 
 ## Examples
 
