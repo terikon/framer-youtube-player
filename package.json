@@ -11,7 +11,11 @@
     "url": "https://github.com/terikon/framer-youtube-player/issues"
   },
   "main": "YouTubePlayer.coffee",
-  "author": "Roman Viskin",
+  "author": {
+    "name": "Roman Viskin",
+    "email": "npm@terikon.com",
+    "url": "http://il.linkedin.com/in/romanviskin"
+  },
   "license": "MIT",
   "keywords": [
     "youtube",
