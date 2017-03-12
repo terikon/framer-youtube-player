@@ -157,7 +157,7 @@ youtube.on YouTubePlayer.Events.ApiChange, (event, targetComponent) ->
 
 You can set parent layer for YouTubePlayer, so it will be handy to move it around. Currently the Framer Studio's AutoCode feature does not work with custom modules.
 
-```coffeescrips
+```coffeescript
 layerA = new Layer # editable with AutoCode
 	x: 200
 	y: 300
