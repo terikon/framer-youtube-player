@@ -1,0 +1,22 @@
+{
+  "name": "framer-youtube-player",
+  "version": "0.0.1",
+  "description": "A Framer module for displaying YouTube player.",
+  "homepage": "https://github.com/terikon/framer-youtube-player",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/terikon/framer-youtube-player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/terikon/framer-youtube-player/issues"
+  },
+  "main": "YouTubePlayer.coffee",
+  "author": "Roman Viskin",
+  "license": "MIT",
+  "keywords": [
+    "youtube",
+    "framerjs",
+    "framer",
+    "coffeescript"
+  ]
+}
