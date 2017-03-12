@@ -1,6 +1,6 @@
 {
   "name": "framer-youtube-player",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Framer module for displaying YouTube player.",
   "homepage": "https://github.com/terikon/framer-youtube-player",
   "repository": {
@@ -22,5 +22,13 @@
     "framerjs",
     "framer",
     "coffeescript"
-  ]
+  ],
+  "dependencies": {
+    "coffeeify": "^2.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  }
 }
